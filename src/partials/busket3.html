@@ -1,0 +1,45 @@
+<div class="busket-steps">
+	<div class="mbox">
+		<ul>
+			<li><a href="#"><span>1</span>КОРЗИНА</a></li>
+			<li><a href="#"><span>2</span>ДОСТАВКА</a></li>
+			<li><a href="#" class="active"><span>3</span>ОПЛАТА</a></li>
+		</ul>
+	</div>
+</div>
+<section class="second-busket third-busket">
+	<form action="ajax.php" class="busket3">
+		<div class="card-busket">
+			<div class="back">
+			</div>
+			<div class="front">
+				<div class="card-type">
+					<p>Тип карты</p>
+					<input type="text" class="el-input" name="card-type">
+				</div>
+				<div class="cvv-field">
+					<p>CVV</p>
+					<input type="text" class="el-input cvv" name="cvv">
+				</div>
+				<div class="card-number">
+					<input type="text" class="el-input number" name="card-number1">
+					<input type="text" class="el-input number" name="card-number2">
+					<input type="text" class="el-input number" name="card-number3">
+					<input type="text" class="el-input number" name="card-number4">
+				</div>
+				<div class="price">
+					<div class="card-time">
+						<input type="text" class="el-input time1" name="card-time1">
+						<p>\</p>
+						<input type="text" class="el-input time2" name="card-time2">
+					</div>
+					<p>ИТОГОВАЯ ЦЕНА <b style="color: #00b3ad;">30 000 руб</b></p>
+				</div>
+			</div>
+		</div>
+		<div class="buttons">
+			<a href="#" class="continue"><span></span>Покупка</a>
+			<button type="submit" class="submit">Подтвердить<span></span></button>
+		</div>
+	</form>
+</section>

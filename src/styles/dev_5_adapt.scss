@@ -1,0 +1,332 @@
+@media screen and (max-width: 1600px){
+
+//  service page
+
+    .services .text-block{
+        padding: 70px 0 60px;
+    }
+//  service page end
+
+// private office
+
+    .private-office .office-box .office-content-box .office-tab.active:first-child{
+        margin-left: 45px;
+    }
+    .private-office .office-box .change-privat-info-form{
+        margin-left: 0;
+    }
+
+// private office end
+
+}
+@media screen and (max-width: 1477px){
+
+//  service page
+
+    .services .text-block a{
+        display: block;
+        max-width: 245px;
+        max-height: 55px;
+        margin: 0 auto;
+        line-height: normal;
+    }
+    .services .text-block:first-child a{
+            line-height: 25px;
+    }
+
+//  service page
+
+// private office
+
+    .private-office .office-box .office-content-box .office-tab.active:first-child{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .private-office .office-box .office-content-box .office-tab.active:first-child a{
+        margin: 0 25px 50px;
+    }
+
+// private office end
+
+}
+@media screen and (max-width: 1366px){
+
+// equipment page
+
+    .equipment .text-box-left img{
+        margin-left: 20px;
+    }
+
+// equipment page end
+
+// private office
+
+    .private-office .office-box .history{
+        padding-left: 10px;
+    }
+    .private-office .office-box .history .history-row{
+        padding: 25px 20px 20px 25px;
+    }
+
+// private office end
+
+}
+@media screen and (max-width: 1280px){
+
+//  service page
+
+    .services .text-box .text-right img,
+    .services .text-box .text-left img{
+        margin: 0 auto;
+        float: none;
+    }
+    .services .text-box{
+        text-align: center;
+    }
+
+//  service page end
+
+// equipment page
+
+    .equipment .text-box-left img{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+// equipment page end
+
+// about us page
+
+    .about-us .wrap-text img{
+        float: none;
+        margin: 0 auto;
+        display: block;
+        padding: 0 15px;
+    }
+    .about-us .wrap-text{
+        text-align: center;
+    }
+    .about-us .map-box .contact-box,
+    .contacts .map-box .contact-box{
+        right: 0;
+    }
+
+// about us page end
+
+// private office
+
+    .private-office .office-box .office-content-box .office-tab.active:first-child a{
+        margin: 0 10px 20px;
+    }
+    .private-office .office-box .office-content-box .office-tab.active:first-child a{
+        width: 300px;
+    }
+    .private-office .office-box .forms-box-row:first-child{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    .private-office .office-box .forms-box-row:first-child form{
+        max-width: 325px;
+        margin-bottom: 73px;
+    }
+    .private-office .office-box .history .history-col{
+        width: 140px;
+        font-size: 18px;
+    }
+
+// private office end
+
+}
+@media screen and (max-width: 1024px){
+
+// equipment page
+
+    .equipment .text-box-right img,
+    .equipment .text-box-left img{
+        float: none;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+// equipment page end
+
+// private office
+
+    .private-office .office-box .forms-box-row{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    .private-office .office-box .forms-box-row form{
+        max-width: 325px;
+        margin-bottom: 73px;
+    }
+
+// private office end
+
+}
+@media screen and (max-width: 992px){
+
+// private office
+
+    .private-office .office-box .nav-bar{
+        display: none;
+    }
+    .private-office .office-box .title-box{
+        text-align: center;
+    }
+    .office-tab.active:nth-child(2){
+        max-width: 1140px;
+        display: flex!important;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        a{
+            height: 289px;
+            background: rgba(255, 255, 255, .66);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;
+            border-radius: 15px;
+            color: #444;
+            // font-size: 24px;
+            font-weight: 400;
+            transition: all 300ms ease;
+
+            &:hover{
+                border: 1px solid #00b3ad;
+            }
+        }
+        p{
+            font-size: 28px;
+        }
+    }
+    .private-office .office-box .office-content-box .office-tab.active:nth-child(2){
+        justify-content: center;
+        margin-left: 0;
+    }
+    .private-office .office-box .office-content-box .office-tab.active:nth-child(2) a{
+        margin: 0 10px 20px;
+    }
+    .private-office .office-box .office-content-box .office-tab.active:nth-child(2) a{
+        width: 300px;
+    }
+    .private-office .office-box .change-privat-info-form:before{
+            left: 235px;
+    }
+
+// private office end
+
+}
+@media screen and (max-width: 867px){
+
+//  service page
+
+    .services .action .timer-item{
+        width: 150px;
+        height: 150px;
+
+        p{
+            font-size: 18px;
+        }
+        span{
+            font-size: 50px;
+        }
+    }
+
+//  service page end
+
+}
+@media screen and (max-width: 767px){
+
+// about us page
+
+    .about-us .map-box,
+    .contacts .map-box{
+        background: url('../images/bg.jpg');
+    }
+    .about-us .map-box .contact-box,
+    .contacts .map-box .contact-box{
+        position: relative;
+        margin: 0 auto;
+    }
+
+// about us page end
+
+}
+@media screen and (max-width: 666px){
+
+//  service page
+
+    .services .action .timer-item{
+        width: 100px;
+        height: 100px;
+
+        p{
+            font-size: 14px;
+        }
+        span{
+            font-size: 30px;
+        }
+    }
+
+//  service page end
+
+// private office
+
+    .private-office .office-box .history .history-row{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .private-office .office-box .history .history-col{
+            padding: 5px 0;
+            text-align: center;
+    }
+
+// private office end
+
+}
+@media screen and (max-width: 479px){
+
+//  service page
+
+    .services .action .timer-item{
+        width: 70px;
+        height: 70px;
+
+        p{
+            font-size: 10px;
+        }
+        span{
+            font-size: 26px;
+        }
+    }
+
+//  service page end
+
+// private office
+
+    .private-office .office-box .forms-box{
+        padding: 45px 10px 65px;
+    }
+    .private-office .office-box .element-input{
+        font-size: 12px;
+        padding: 12px 0px;
+    }
+    .private-office .office-box .history .history-row{
+        padding: 15px;
+    }
+    .private-office .office-box .history .history-col{
+        width: 120px;
+        font-size: 16px;
+    }
+
+// private office end
+
+}

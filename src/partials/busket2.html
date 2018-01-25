@@ -1,0 +1,78 @@
+<div class="busket-steps">
+	<div class="mbox">
+		<ul>
+			<li><a href="#"><span>1</span>КОРЗИНА</a></li>
+			<li><a href="#" class="active"><span>2</span>ДОСТАВКА</a></li>
+			<li><a href="#"><span>3</span>ОПЛАТА</a></li>
+		</ul>
+	</div>
+</div>
+<section class="second-busket">
+	<form action="ajax.php" class="busket2">
+		<div class="form-table">
+			<div class="form-col">
+				<div class="form-header"><h4>АДРЕС ДОСТАВКИ</h4></div>
+				<div class="form-content">
+					<div class="form-field">
+						<p>Страна<sup style="color:#00b3ad;">*</sup></p>
+						<input type="text" class="el-input" name="country" required="required">
+					</div>
+					<div class="form-field">
+						<p>Область<sup style="color:#00b3ad;">*</sup></p>
+						<input type="text" class="el-input" name="region" required="required">
+					</div>
+					<div class="form-field">
+						<p>Город<sup style="color:#00b3ad;">*</sup></p>
+						<input type="text" class="el-input" name="city" required="required">
+					</div>
+					<div class="form-field">
+						<p>Адрес<sup style="color:#00b3ad;">*</sup></p>
+						<input type="text" class="el-input" name="address" required="required">
+					</div>
+					<div class="form-field">
+						<p>Индекс<sup style="color:#00b3ad;">*</sup></p>
+						<input type="text" class="el-input" name="index" required="required">
+					</div>
+				</div>
+			</div>
+			<div class="form-col">
+				<div class="form-header"><h4>КОНТАКТНАЯ ИНФОРМАЦИЯ</h4></div>
+				<div class="form-content">
+					<div class="form-field">
+						<p>Ваше имя<sup style="color:#00b3ad;">*</sup></p>
+						<input type="text" class="el-input" name="country" required="required">
+					</div>
+					<div class="form-field">
+						<p>Телефон<sup style="color:#00b3ad;">*</sup></p>
+						<input type="text" class="el-input" name="region" required="required">
+					</div>
+					<div class="form-field">
+						<p>Ваша фамилия<sup style="color:#00b3ad;">*</sup></p>
+						<input type="text" class="el-input" name="city" required="required">
+					</div>
+					<div class="form-field">
+						<p>E-mail</p>
+						<input type="text" class="el-input" name="address">
+					</div>
+				</div>
+			</div>
+			<div class="form-col delivery">
+				<div class="form-header">
+					<h4>способ доставки</h4>
+					<div class="form-field">
+						<input type="radio" class="el-radio" name="delivery" id="standart">
+						<label for="standart">90.00 руб  Стандарт     <span>1-2 Недели</span></label>
+					</div>
+					<div class="form-field">
+						<input type="radio" class="el-radio" name="delivery" id="ultra-speed">
+						<label for="ultra-speed"> 200.00 руб Ultra Speed     <span>1 День</span></label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="buttons">
+			<a href="#" class="continue"><span></span>Корзина</a>
+			<button type="submit" class="submit">Оплата<span></span></button>
+		</div>
+	</form>
+</section>
